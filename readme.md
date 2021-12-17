@@ -1,4 +1,6 @@
 cd 到該目錄
 ```sudo chmod 777 *```
-執行RxPrg [Tx路徑]等待傳送
-執行TxPrg [欲傳送檔案] [Rx路徑]後即可開始傳送
+到Rx執行下列指令等待傳送
+```RxPrg ../Tx```
+執行下列指令後即可開始傳送
+```TxPrg [File you want to send] ../Rx```
